@@ -1,0 +1,71 @@
+# This is the example config. Nerd fonts are required for the icons
+
+[username]
+text = "Username"
+icon = "  "
+color = "red"
+[hostname]
+text = "Hostname"
+icon = "󰇅  "
+color = "yellow"
+[os]
+text = "OS"
+icon = "  "
+color = "green"
+[packages]
+text = "Packages"
+icon = "󰏖  "
+color = "cyan"
+[terminal]
+text = "Terminal"
+icon = "  "
+color = "magenta"
+[shell]
+text = "Shell"
+icon = "  "
+color = "red"
+[desktop]
+text = "Desktop"
+icon = "󰍹  "
+color = "blue"
+[gpu]
+text = "GPU"
+icon = "  "
+color = "red"
+[cpu]
+text = "CPU"
+icon = "  "
+color = "yellow"
+[memory]
+text = "Memory"
+icon = "  "
+color = "green"
+display_mb = false
+display_percent = false
+[uptime]
+text = "Uptime"
+icon = "  "
+color = "cyan"
+[colors]
+text = "Colors"
+color = "blue"
+icon = "  "
+color_icon = "󰣏"
+[time_date]
+text = "Time/Date"
+format = "%h %m"
+color = "cyan"
+icon = "󰺗  "
+[general]
+decoration = "border"
+separator = ""
+padding = 0
+figlet = true
+figlet_text = "Arch"
+#figlet_arg = "-smushmode"
+figlet_color = "magenta"
+
+[order]
+fields = ["username", "hostname", "os", "packages","desktop", "terminal",
+"shell", "cpu", "memory", "uptime","colors"]
+
