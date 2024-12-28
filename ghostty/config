@@ -1,0 +1,17 @@
+command = zsh
+theme = catppuccin-mocha
+shell-integration = zsh
+font-size = 17
+window-decoration = false
+confirm-close-surface = false
+
+keybind = ctrl+shift+l=next_tab
+keybind = ctrl+shift+h=previous_tab
+
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:bottom
+keybind = alt+k=goto_split:top
+keybind = alt+l=goto_split:right
+
+
+
